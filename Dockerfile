@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.7.2
+FROM jenkins:2.7.2
 USER root
 RUN apt-get update
 RUN apt-get install -y apt-transport-https ca-certificates
